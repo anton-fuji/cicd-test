@@ -1,9 +1,6 @@
 name: Lambda CI Test
 
-on:
-  push:
-    branches-ignore:
-      - "**"
+on: push
 
 jobs:
   test_lambda:
