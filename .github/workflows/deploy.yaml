@@ -2,8 +2,8 @@ name: Deploy to AWS Lambda
 
 on:
   push:
-    branches:
-      - main
+    branches-ignore:
+      - "**"
 
 jobs:
   deploy:
